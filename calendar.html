@@ -27,7 +27,7 @@
 <script src="js/jquery-1.10.2.min.js"></script>
 <script src="js/bootstrap.min.js"></script>
 
-<title>EveryVote - Groups</title>
+<title>EveryVote - Spring 2014 Election</title>
 
 </head>
 
@@ -107,18 +107,18 @@
             <div class="main-header-logo">
               <img src="img/ev_square_logo.jpg">
             </div>
-              <div class="main-header-button button-primary">
-                Share
-              </div>
-              <div class="main-header-button button-warning visible-xs hidden-sm hidden-md hidden-lg">
-                Vote
-              </div>
-              <div class="main-header-button button-success visible-xs hidden-sm hidden-md hidden-lg">
-                Ask
-              </div>
-              <div class="main-header-button button-success visible-xs hidden-sm hidden-md hidden-lg">
-                Run
-              </div>
+            <div class="main-header-button button-primary">
+              Share
+            </div>
+            <div class="main-header-button button-warning visible-xs hidden-sm hidden-md hidden-lg">
+              Vote
+            </div>
+            <div class="main-header-button button-success visible-xs hidden-sm hidden-md hidden-lg">
+              Ask
+            </div>
+            <div class="main-header-button button-success visible-xs hidden-sm hidden-md hidden-lg">
+              Run
+            </div>
             <div class="main-header-name hidden-xs visible-sm visible-md visible-lg">
               EveryVote <br />
               <span style="color:#fcfcfc;">></span>
@@ -161,7 +161,7 @@
         <div class="row">
           <div class="main-tabs">
             <a href="groups.html">
-              <div class="main-tabs-tab-active">
+              <div class="main-tabs-tab">
                 <i class="fa fa-group"></i> Groups
               </div>
             </a>
@@ -176,7 +176,7 @@
               </div>
             </a>
             <a href="calendar.html">
-              <div class="main-tabs-tab">
+              <div class="main-tabs-tab-active">
                 <i class="fa fa-calendar"></i> Calendar
               </div>
             </a>
@@ -191,99 +191,108 @@
         </div><!-- /.row -->
         <div class="row">
           <div class="main-bar">
-            <div class="main-bar-input">
-              <div class="input-group input-group-lg">
-                <input type="text" class="form-control" placeholder="Type your university name here">
-                <span class="input-group-btn">
-                  <button class="btn btn-default" type="button"><i class="fa fa-search main-bar-input-icon-search"></i></button>
-                </span>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="row">
-          <div class="main-sorting">
             <div class="btn-group">
-              <a class="dropdown-toggle" data-toggle="dropdown">
-                Upcoming Elections <span class="caret"></span>
-              </a>
-              <ul class="dropdown-menu" role="menu">
-                <li><a href="#">Action</a></li>
-                <li><a href="#">Another action</a></li>
-                <li><a href="#">Something else here</a></li>
-                <li class="divider"></li>
-                <li><a href="#">Separated link</a></li>
+              <div class="main-bar-dropdown dropdown-toggle" data-toggle="dropdown">
+                Upcoming Events <span class="caret"></span> &nbsp
+              </div>
+              <ul class="main-bar-dropdown-menu dropdown-menu" role="menu">
+                <li><a href="#">2013</a></li>
+                <li><a href="#">2012</a></li>
+                <li><a href="#">2011</a></li>
+                <li><a href="#">2010</a></li>
               </ul>
             </div><!-- /.btn-group -->
-          </div><!-- /.main-sorting -->
+          </div><!-- /.main-bar -->
         </div><!-- /.row -->
         <div class="row">
-          <div class="main-group">
-            <div class="main-group-left">
-              1
-              <div class="main-group-left-profile-picture">
-                <img src="img/university_logos/saint_xavier_university_logo.gif" />
-              </div><!-- /.main-group-left-profile-picture -->
-            </div><!-- /.main-group-left -->
-            <div class="main-group-text">
-              <div class="main-group-text-name">
-                Saint Xavier University
+          <div class="main-calendar">
+            <div class="main-calendar-event-first">
+              <div class="main-calendar-event-title">
+                Student Government Meeting
               </div>
-              <div class="main-group-text-next-election">
-                Next Election: 02/29/14 - 02/31/14
+              <div class="main-calendar-event-datetime">
+                02/31/2014 - 7:00 PM
               </div>
-            </div><!-- /.main-group-text -->
-            <div class="clear-both">
-            </div>
-          </div><!-- /.main-group -->
-          <div class="main-group">
-            <div class="main-group-left">
-              2
-              <div class="main-group-left-profile-picture">
-                <img src="img/university_logos/northern_illinois_university_logo.jpg" />
-              </div><!-- /.main-group-left-profile-picture -->
-            </div><!-- /.main-group-left -->
-            <div class="main-group-text">
-              <div class="main-group-text-name">
-                Northern Illinois University
+              <div class="main-calendar-event-where">
+                Altgeld Hall
               </div>
-              <div class="main-group-text-next-election">
-                Next Election: 02/29/14 - 02/31/14
+              <div class="main-calendar-event-about">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis venenatis, lectus sed varius consectetur, nisl elit viverra nunc, quis mattis elit turpis eget lacus. Sed semper orci scelerisque mollis imperdiet. 
               </div>
-            </div><!-- /.main-group-text -->
-            <div class="clear-both">
-            </div>
-          </div><!-- /.main-group -->
-          <div class="main-group">
-            <div class="main-group-left">
-              3
-              <div class="main-group-left-profile-picture">
-                <img src="img/university_logos/university_of_illinois_urbana-champaign_logo.jpg" />
-              </div><!-- /.main-group-left-profile-picture -->
-            </div><!-- /.main-group-left -->
-            <div class="main-group-text">
-              <div class="main-group-text-name">
-                University of Illinois Urbana-Champaign
+            </div><!-- /.main-calendar-event -->
+            <div class="main-calendar-event">
+              <div class="main-calendar-event-title">
+                Student Government Meeting
               </div>
-              <div class="main-group-text-next-election">
-                Next Election: 02/29/14 - 02/31/14
+              <div class="main-calendar-event-datetime">
+                02/31/2014 - 7:00 PM
               </div>
-            </div><!-- /.main-group-text -->
-            <div class="clear-both">
-            </div>
-          </div><!-- /.main-group -->
-          <div class="main-page-nav">
-            <div class="main-page-nav-prev">
-              < Prev
-            </div>
-            <div class="main-page-nav-next">
-              Next >
-            </div>
-            <div class="clear-both">
-            </div>
-          </div><!-- /.main-page-nav -->
-        </div><!-- /.row -->
-      </div><!-- /.col-md-9 -->
+              <div class="main-calendar-event-where">
+                Altgeld Hall
+              </div>
+              <div class="main-calendar-event-about">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis venenatis, lectus sed varius consectetur, nisl elit viverra nunc, quis mattis elit turpis eget lacus. Sed semper orci scelerisque mollis imperdiet. 
+              </div>
+            </div><!-- /.main-calendar-event -->
+            <div class="main-calendar-event">
+              <div class="main-calendar-event-title">
+                Student Government Meeting
+              </div>
+              <div class="main-calendar-event-datetime">
+                02/31/2014 - 7:00 PM
+              </div>
+              <div class="main-calendar-event-where">
+                Altgeld Hall
+              </div>
+              <div class="main-calendar-event-about">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis venenatis, lectus sed varius consectetur, nisl elit viverra nunc, quis mattis elit turpis eget lacus. Sed semper orci scelerisque mollis imperdiet. 
+              </div>
+            </div><!-- /.main-calendar-event -->
+            <div class="main-calendar-event">
+              <div class="main-calendar-event-title">
+                Student Government Meeting
+              </div>
+              <div class="main-calendar-event-datetime">
+                02/31/2014 - 7:00 PM
+              </div>
+              <div class="main-calendar-event-where">
+                Altgeld Hall
+              </div>
+              <div class="main-calendar-event-about">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis venenatis, lectus sed varius consectetur, nisl elit viverra nunc, quis mattis elit turpis eget lacus. Sed semper orci scelerisque mollis imperdiet. 
+              </div>
+            </div><!-- /.main-calendar-event -->
+            <div class="main-calendar-event">
+              <div class="main-calendar-event-title">
+                Student Government Meeting
+              </div>
+              <div class="main-calendar-event-datetime">
+                02/31/2014 - 7:00 PM
+              </div>
+              <div class="main-calendar-event-where">
+                Altgeld Hall
+              </div>
+              <div class="main-calendar-event-about">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis venenatis, lectus sed varius consectetur, nisl elit viverra nunc, quis mattis elit turpis eget lacus. Sed semper orci scelerisque mollis imperdiet. 
+              </div>
+            </div><!-- /.main-calendar-event -->
+            <div class="main-calendar-event">
+              <div class="main-calendar-event-title">
+                Student Government Meeting
+              </div>
+              <div class="main-calendar-event-datetime">
+                02/31/2014 - 7:00 PM
+              </div>
+              <div class="main-calendar-event-where">
+                Altgeld Hall
+              </div>
+              <div class="main-calendar-event-about">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis venenatis, lectus sed varius consectetur, nisl elit viverra nunc, quis mattis elit turpis eget lacus. Sed semper orci scelerisque mollis imperdiet. 
+              </div>
+            </div><!-- /.main-calendar-event -->
+          </div><!-- /.main-calendar -->
+        </div>
+      </div><!-- /.col-md-9 main -->
       <div class="col-md-3">
         <div class="row">
           <div class="side">
