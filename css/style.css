@@ -4,14 +4,6 @@ body {
     font-size:16px;
 }
 
-.pseudo-row {
-    margin:0 -20px;
-}
-
-.clear-both {
-    clear:both;
-}
-
 .navbar {
     margin:0;
     font-size:14px;
@@ -35,7 +27,6 @@ body {
 
 .ev-brand {
     color:#e8e8e8;
-    
 }
 
 .ev-breadcrumb {
@@ -192,7 +183,7 @@ body {
 .main-bar {
     background-color:#ffffca;
     text-align:left;
-    padding:10px 20px;
+    padding:5px 20px;
     border-top:1px solid #aaa;
     border-bottom:1px solid #aaa;
     font-size:24px;
@@ -302,6 +293,10 @@ body {
 .main-level-3 {
     padding:15px 20px 15px 50px;
     border-top:1px dotted #aaa;
+}
+
+.main-level-3 a {
+    color:black;
 }
 
 .main-level-3-profile-picture {
@@ -531,6 +526,111 @@ body {
     font-size:14px;
 }
 
+.main-profile {
+    margin:0 0 20px 0;
+}
+
+.main-profile-nav {
+    padding:5px 0;
+    background-color:#ffffca;
+    border-top:1px dashed #aaa;
+    border-bottom:1px dashed #aaa;
+}
+
+.main-profile-nav-prev {
+    float:left;
+    margin:0 0 0 20px;
+}
+
+.main-profile-nav-next {
+    float:right;
+    margin:0 20px 0 0;
+}
+
+.main-profile-nav-election {
+    text-align:center;
+    font-size:24px;
+}
+
+.main-profile-body {
+  padding:20px;
+}
+
+.main-profile-body-profile-picture {
+    float:left;
+    margin:0 20px 0 0;
+}
+
+.main-profile-body-profile-picture img {
+    height:120px;
+    width:120px;
+    border-radius:5px;
+}
+
+.main-profile-body-social {
+    float:right;
+    margin:-5px 0 0 0;
+}
+
+.main-profile-body-social-icon {
+    float:right;
+    margin:0 0 0 10px;
+    font-size:24px;
+    cursor:pointer;
+}
+
+.main-profile-body-social-edit {
+    float:right;
+    clear:right;
+    padding:5px 15px;
+    margin:5px 0 0 0;
+    font-size:16px;
+    cursor:pointer;
+    border-radius:10px;
+}
+
+.main-profile-body-name {
+    margin:-5px 0 0 0;
+    font-size:22px;
+    overflow:hidden;
+    float:left;
+}
+
+.main-profile-body-name-xs {
+    clear:both;
+    padding:10px 0 0 0;
+    font-size:22px;
+}
+
+.main-profile-body-name-sub {
+    font-size:18px;
+}
+
+.main-profile-body-title {
+    font-size:20px;
+    margin:0 0 5px 0;
+}
+
+.main-profile-body-text {
+    margin:0 0 0 20px;
+}
+
+.main-profile-body-text-q {
+    overflow:hidden;
+    margin:0 0 20px 0;
+}
+
+.main-profile-body-text-a {
+    margin:5px 0 0 0;
+}
+
+.main-profile-body-text-answer-icon {
+    width:80px;
+    float:right;
+    text-align:center;
+    font-size:18px;
+}
+
 .main-image {
     margin:0 20px;
 }
@@ -757,6 +857,14 @@ body {
 .button-warning:hover {
     background-color:#f4c280;
     color:#fcfcfc;
+}
+
+.pseudo-row {
+    margin:0 -20px;
+}
+
+.clear-both {
+    clear:both;
 }
 
 .yes {
