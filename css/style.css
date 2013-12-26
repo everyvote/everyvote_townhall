@@ -54,27 +54,21 @@ body {
 .home-tagline {
     text-align:center;
     margin:20px 0 0 0;
+    padding:0 0 5px 0;
 }
 
 .home-bar-dropdown {
     float:left;
 }
 
-.home-bar {
-    background-color:#ffffca;
+.home-bar-input {
     text-align:left;
     margin:10px;
-    border:1px solid #aaa;
-    border-radius:10px;
-    font-size:24px;
-}
-
-.home-bar-input-icon-search {
-    font-size:24px;
 }
 
 .home-bar-alphabet {
-    float:right;
+    overflow:hidden;
+    padding:0 0 0 20px;
 }
 
 .home-bar-alphabet a {
@@ -109,6 +103,13 @@ body {
     width:100px;
 }
 
+@media (max-width: 768px) {
+    .main-header-logo img {
+      height:70px;
+      width:70px;
+    }
+}
+
 .main-header-name {
     display:inline-block;
     font-size:24px;
@@ -119,7 +120,7 @@ body {
 .main-header-name-xs {
     clear:left;
     display:inline-block;
-    font-size:24px;
+    font-size:22px;
     padding:0;
     vertical-align:top;
 }
@@ -176,6 +177,12 @@ body {
     margin:0 0 10px 0;
 }
 
+@media (max-width:768px) {
+    .main-tabs {
+        font-size:16px;
+    }
+}
+
 .main-tabs-tab {
     display:inline-block;
     color:#eee;
@@ -204,15 +211,15 @@ body {
     padding:5px 20px;
     border-top:1px solid #aaa;
     border-bottom:1px solid #aaa;
-    font-size:24px;
+    font-size:22px;
 }
 
 .main-bar-input-icon-search {
-    font-size:24px;
+    font-size:22px;
 }
 
 .main-bar-dropdown {
-    font-size:24px;
+    font-size:22px;
 }
 
 .main-bar-dropdown-menu {
@@ -220,7 +227,7 @@ body {
 }
 
 .main-sorting {
-    font-size:15px;
+    font-size:14px;
     padding:10px 22px;
 }
 
@@ -258,8 +265,8 @@ body {
 }
 
 .main-group-left-profile-picture img {
-    height:100px;
-    width:100px;
+    height:80px;
+    width:80px;
 }
 
 .main-group-text {
@@ -267,8 +274,8 @@ body {
 }
 
 .main-group-text-name {
-    font-size:22px;
-    margin:15px 0 5px 0;
+    font-size:20px;
+    margin:10px 0 5px 0;
 }
 
 .main-group-text-next-election {
@@ -288,7 +295,7 @@ body {
 }
 
 .main-voting-days {
-    font-size:18px;
+    font-size:16px;
     margin:20px 0 10px 0;
     padding:0 20px;
 }
@@ -296,18 +303,18 @@ body {
 .main-about {
     margin:0 0 20px 0;
     padding:0 20px;
-    font-size:16px;
+    font-size:14px;
 }
 
 .main-level-1 {
-    font-size:24px;
+    font-size:20px;
     padding:5px 20px;
     background-color:#e7e7e7;
     border-top:1px solid #aaa;
 }
 
 .main-level-1-last {
-    font-size:24px;
+    font-size:20px;
     padding:5px 20px;
     background-color:#e7e7e7;
     border-top:1px solid #aaa;
@@ -315,7 +322,7 @@ body {
 
 .main-level-2 {
     background-color:#f7f7f7;
-    font-size:22px;
+    font-size:18px;
     padding:5px 20px 5px 40px;
     border-top:1px solid #aaa;
 }
@@ -344,12 +351,11 @@ body {
 }
 
 .main-level-3-text-name {
-    font-size:22px;
-    margin:-5px 0 0 0;
+    font-size:18px;
 }
 
 .main-level-3-text-goals {
-    font-size:16px;
+    font-size:15px;
     margin:4px 0 0 0;
 }
 
@@ -378,12 +384,12 @@ body {
 .main-questions-level-1-right-button {
     width:80px;
     padding:5px 0;
-    font-size:15px;
+    font-size:13px;
     border-radius:10px;
 }
 
 .main-questions-level-1-right-total {
-    font-size:16px;
+    font-size:13px;
 }
 
 .main-questions-level-1-text {
@@ -391,11 +397,11 @@ body {
 }
 
 .main-questions-level-1-text-question {
-    font-size:22px;
+    font-size:20px;
 }
 
 .main-questions-level-1-text-bottom {
-    font-size:14px;
+    font-size:13px;
 }
 
 .main-questions-level-1-text-bottom-datetime {
@@ -407,13 +413,13 @@ body {
 }
 
 .main-questions-level-2 {
-    padding:10px 20px 10px 30px;
+    padding:10px 20px 10px 40px;
     border-top:1px solid #aaa;
 }
 
 .main-questions-level-2-toggle {
     float:left;
-    font-size:18px;
+    font-size:16px;
 }
 
 .main-questions-level-2-profile-picture {
@@ -433,7 +439,7 @@ body {
 }
 
 .main-questions-level-2-right-answer {
-    font-size:18px;
+    font-size:16px;
     margin:-2px 0 10px 0;
     font-weight:bold;
 }
@@ -441,22 +447,24 @@ body {
 .main-questions-level-2-right-button {
     width:80px;
     padding:5px 0;
-    font-size:15px;
+    font-size:13px;
     border-radius:10px;
 }
 
 .main-questions-level-2-right-total {
-
+    font-size:13px;
 }
 
 .main-questions-level-2-name {
-    font-size:18px;
+    font-size:16px;
     margin:-2px 0 0 0;
     font-weight:bold;
+    float:left;
 }
 
 .main-questions-level-2-text {
     overflow:hidden;
+    font-size:16px;
 }
 
 .main-questions-level-2-text-bottom {
@@ -464,11 +472,11 @@ body {
 }
 
 .main-questions-level-2-text-bottom-datetime {
-    font-size:14px;
+    font-size:13px;
 }
 
 .main-questions-level-3 {
-    padding:10px 20px 10px 100px;
+    padding:0 20px 20px 130px;
     overflow:hidden;
 }
 
@@ -502,13 +510,14 @@ body {
 }
 
 .main-questions-level-3-name {
-    font-size:16px;
+    font-size:14px;
     margin:-2px 0 0 0;
     font-weight:bold;
 }
 
 .main-questions-level-3-text {
     overflow:hidden;
+    font-size:14px;
 }
 
 .main-questions-level-3-text-comment {
@@ -516,7 +525,6 @@ body {
 }
 
 .main-questions-level-3-text-botttom {
-
 }
 
 .main-questions-level-3-text-bottom-datetime {
@@ -615,7 +623,7 @@ body {
 .main-profile-body-social-edit {
     float:right;
     clear:right;
-    padding:5px 15px;
+    padding:3px 15px;
     margin:5px 0 0 0;
     font-size:16px;
     cursor:pointer;
@@ -642,7 +650,7 @@ body {
 .main-profile-body-name-xs {
     clear:both;
     padding:10px 0 0 0;
-    font-size:22px;
+    font-size:20px;
 }
 
 .main-profile-body-name-sub {
@@ -650,12 +658,13 @@ body {
 }
 
 .main-profile-body-title {
-    font-size:20px;
-    margin:0 0 5px 0;
+    font-size:18px;
+    margin:0 0 3px 0;
 }
 
 .main-profile-body-text {
     margin:0 0 0 20px;
+    font-size:15px;
 }
 
 .main-profile-body-text-q {
@@ -671,7 +680,7 @@ body {
     width:80px;
     float:right;
     text-align:center;
-    font-size:18px;
+    font-size:16px;
 }
 
 .main-image {
@@ -701,11 +710,12 @@ body {
 }
 
 .side-bar {
+    clear:both;
 }
 
 .side-bar-header {
     background-color:#eee;
-    font-size:20px;
+    font-size:18px;
     padding:8px 10px;
     border-bottom:1px solid #aaa;
     
@@ -715,7 +725,7 @@ body {
     height:300px;
     overflow:auto;
     border-bottom:1px solid #aaa;
-    font-size:14px;
+    font-size:13px;
 }
 
 .side-bar-feed-item {
@@ -738,25 +748,25 @@ body {
 }
 
 .side-bar-feed-level-1 {
-    font-size:19px;
+    font-size:18px;
     padding:5px 10px 5px 10px;
     border-top:1px dotted #aaa;
 }
 
 .side-bar-feed-level-1-first {
-    font-size:19px;
+    font-size:18px;
     padding:5px 10px 5px 10px;
 }
 
 .side-bar-feed-level-2 {
-    font-size:17px;
+    font-size:16px;
     padding:5px 10px 5px 25px;
 
 }
 
 .side-bar-feed-level-3 {
     padding:5px 10px 5px 40px;
-    font-size:15px;
+    font-size:14px;
 }
 
 .side-bar-feed a {
@@ -764,7 +774,6 @@ body {
 }
 
 .side-bar-mod-controls-feed {
-    height:420px;
     border-bottom:1px solid #ccc;
 }
 
@@ -793,10 +802,6 @@ body {
     text-align:center;
     }
 }
-
-
-
-
 
 .side-bar-footer {
     background-color:#eee;
