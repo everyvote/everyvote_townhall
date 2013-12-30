@@ -1,0 +1,5 @@
+*.pyc
+*.swp
+everyvote_townhall/settings.py
+*.sqlite3
+*.db
